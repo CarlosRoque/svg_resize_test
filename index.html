@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.3.min.js"></script>
+    <script src="mix.js"></script>
+    <script src="event_facade.js"></script>
+    <script src="drag_and_resize.js"></script>
+    <script src="test.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto|Open+Sans+Condensed:300|Indie+Flower|Pacifico|Shadows+Into+Light' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+    <h1>SVG Test</h1>
+
+    <p>
+      <div id="container" style="width:400px; height:400px; border:1px dashed #777; position:relative;">
+        <svg id="test" height="400" width="400">
+          <text id="test_text" fill="red">I love SVG!</text>
+          Sorry, your browser does not support inline SVG.
+        </svg>
+      </div>
+    </p>
+    <p>
+      <input type="text" id="text"/>
+      <select id="fonts">
+        <option value="0">Roboto</option>
+        <option value="1">Open Sans Condensed</option>
+        <option value="2">Indie Flower</option>
+        <option value="3">Pacifico</option>
+        <option value="4">Shadows</option>
+      </select>
+      <select id="sizes">
+        <option>8</option>
+        <option>10</option>
+        <option>12</option>
+        <option>14</option>
+        <option>16</option>
+        <option>18</option>
+        <option>22</option>
+        <option>28</option>
+        <option>36</option>
+        <option>42</option>
+        <option>52</option>
+      </select>
+      <button id="button">Change</button>
+    </p>
+
+  </body>
+</html>
